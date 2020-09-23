@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.onebox {
+  width: 25%;
+  float: left;
+  padding-left: 0.3rem;
+}
+
+.twobox {
+  width: 75%;
+  float: left;
+}
+
+.totalbox {
+  width: 100%;
+}
+
+.charttypebox {
+  width: 50%;
+  float: left;
+  margin-bottom: 0.5rem;
+}
+
+div.onebox input[type=text] {
+  width: 100%;
+}
+
+div.example input[type=text] {
+  width: 80%;
+  float: left;
+}
+
+div.example button {
+  width: 20%;
+  float: left;
+}
+
+div.example button:hover {
+  background: #dbaa35;
+}
